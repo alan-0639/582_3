@@ -13,8 +13,8 @@
 
 const uint32_t Row_Pin[ROW_SIZE] = {GPIO_Pin_39, GPIO_Pin_40, GPIO_Pin_41, GPIO_Pin_42, GPIO_Pin_43, GPIO_Pin_6};   //row 6 - 其它键盘布局需修改此处
 const uint32_t Colum_Pin[COL_SIZE] = {GPIO_Pin_30, GPIO_Pin_29, GPIO_Pin_28, GPIO_Pin_27, GPIO_Pin_24, GPIO_Pin_23, GPIO_Pin_22,
-                                      GPIO_Pin_21, GPIO_Pin_20, GPIO_Pin_19, GPIO_Pin_18, GPIO_Pin_36, GPIO_Pin_37, GPIO_Pin_38,
-                                      GPIO_Pin_44, GPIO_Pin_45, GPIO_Pin_46, GPIO_Pin_47                                      };   //colum 18 - 其它键盘布局需修改此处
+                                      GPIO_Pin_21, GPIO_Pin_20, GPIO_Pin_19, GPIO_Pin_18, GPIO_Pin_36, GPIO_Pin_4,  GPIO_Pin_37, 
+                                      GPIO_Pin_38, GPIO_Pin_44, GPIO_Pin_45, GPIO_Pin_46, GPIO_Pin_47                         };   //colum 19 - 其它键盘布局需修改此处
 //row*colum = 6*14 = 84
 const uint8_t KeyArrary[ROW_SIZE][COL_SIZE] = {
           //---- COL 0 ----|-- COL 1 --|-- COL 2 --|--- COL 3 ---|--- COL 4 ---|--- COL 5 ---|--- COL 6 ---| ---COL 7 ---|--- COL 8 ---|--- COL 9 ---|---- COL10 ----|---- COL11 ----|---- COL12 ----|---- COL13 ----|---- COL14 ----|---- COL15 ----|---- COL16 ----|---- COL17 ----|---- COL18 ----|
